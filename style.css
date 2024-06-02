@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.head{
+    display: flex;
+}
+h1{
+    text-align: end;
+    width: 60vw;
+}
+.highestScore{
+    width: 40vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: #d95980;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: #fff;
+}
+
+.userFlash{
+    background-color: #0ad11e;
+}
